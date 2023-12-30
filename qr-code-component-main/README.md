@@ -84,8 +84,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 ## Author
 
 - Github - [LeviKuhaulua](https://github.com/LeviKuhaulua)
-- LinkedIn - [Levi Kuhaulua](www.linkedin.com/in/levi-kuhaulua) 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- LinkedIn - [Levi Kuhaulua](https://www.linkedin.com/in/levi-kuhaulua) 
+- Frontend Mentor - [@LeviKuhaulua](https://www.frontendmentor.io/profile/LeviKuhaulua)
 
 
 ## Acknowledgments
