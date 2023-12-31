@@ -1,3 +1,4 @@
+/* From Front-End Mentor */
 .attribution {
     font-size: 11px; 
     text-align: center; 
@@ -6,3 +7,77 @@
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+
+/* My Styles */
+
+*::after, 
+*::before, 
+* {
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+}
+
+:root {
+   
+    font-size: 16px; 
+    line-height: 1.5; 
+    letter-spacing: 0.75px; 
+
+    /* Color */
+    --clr-white: hsl(0 0% 100%);  
+    --clr-light_gray:  hsl(212 45% 89%); 
+    --clr-gray_blue: hsl(220 15% 55%); 
+    --clr-dark_blue: hsl(218 44% 22%); 
+    
+    /* Font-Family */
+    --ff-Outfit: 'Outfit', sans-serif; 
+    
+}
+
+body {
+    margin: 0; 
+    background-color: var(--clr-light_gray); 
+    display: flex; 
+    flex-direction: column; 
+    gap: 2rem; 
+    justify-content: center; 
+    align-content: center; 
+    align-items: center; 
+}
+
+.card { 
+    max-width: 25%; 
+    height: auto; 
+    background-color: var(--clr-white);
+    padding: 2rem 0.75rem 0;  /* top - 32px | left/right - 12px */ 
+    border-radius: 5%; 
+}
+
+.card img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    border-radius: 5%; 
+}
+
+.card-text {
+    color: var(--clr-gray_blue); 
+    font-family: var(--ff-Outfit);
+    font-size: 15px;  /* Font-size for paragraph from Front-End Mentor*/
+    font-weight: 400; 
+    text-align: center; 
+}
+
+.card-title {
+    color: var(--clr-dark_blue); 
+    font-family: var(--ff-Outfit);
+    font-size: 1.625rem; /* 26px */ 
+    font-weight: 700; 
+    text-align: center; 
+}
+
+
+
+
