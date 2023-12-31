@@ -34,6 +34,8 @@
     /* Font-Family */
     --ff-Outfit: 'Outfit', sans-serif; 
     
+    --fs-header: 1.625rem; /* 26px */ 
+    --fs-regular: 15px;  /* From Front-End Mentor */
 }
 
 body {
@@ -64,10 +66,10 @@ body {
 
 .card-text {
     margin-top: unset; 
-    margin-bottom: 1.25rem; 
+    margin-bottom: 1.25rem; /* 20px */
     color: var(--clr-gray_blue); 
     font-family: var(--ff-Outfit);
-    font-size: 15px;  /* Font-size for paragraph from Front-End Mentor*/
+    font-size: var(--fs-regular);
     font-weight: 400; 
     text-align: center; 
     text-wrap: balance; 
@@ -78,12 +80,11 @@ body {
     margin-bottom: 0.875rem; /* 14px */ 
     color: var(--clr-dark_blue); 
     font-family: var(--ff-Outfit);
-    font-size: 1.625rem; /* 26px */ 
+    font-size: var(--fs-header); 
     font-weight: 700; 
     text-align: center; 
     text-wrap: balance;  /* Balance the length of each line in card */
 }
-
 
 
 
